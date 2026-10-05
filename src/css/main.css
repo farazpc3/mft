@@ -1,0 +1,10 @@
+table {
+  border-collapse: separate; /* Keeps borders separate */
+  border-spacing: 10px; /* Adds space between cells */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}

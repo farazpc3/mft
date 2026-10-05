@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/main.css" />
     <title>Document</title>
+    <base href="/" />
   </head>
   <body>
     <img
@@ -37,7 +39,13 @@
     <section
       style="display: flex; justify-content: center; align-items: center"
     >
-      <table style="display: block">
+      <table
+        style="
+          display: block;
+          border: 0.4em solid black;
+          border-collapse: collapse;
+        "
+      >
         <caption>
           Table of order
         </caption>
@@ -76,7 +84,7 @@
         </tbody>
         <tfoot>
           <tr>
-            <td><a href="">سفارش</a></td>
+            <td colspan="4" style="text-align: center"><a href="">سفارش</a></td>
           </tr>
         </tfoot>
       </table>
